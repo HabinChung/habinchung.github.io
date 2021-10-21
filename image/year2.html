@@ -1,0 +1,227 @@
+<!DOCTYPE html><!--22161047 정하빈-->
+<html lang="ko">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face{
+            font-family: 'NanumSquare';
+            src:url("fonts/NanumSquare.ttf");
+            unicode-range: U+AC00-D7A3, U+0041-005A, U+0061-007A, U+0030-0039;
+        }
+
+        @font-face{
+            font-family: 'Noto Serif Display';
+            src:url("fonts/NotoSerifDisplay-VariableFont_wdth\,wght.ttf");
+            unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
+        }
+
+        *{
+            list-style: none;
+            text-decoration: none;
+            border-collapse: collapse;
+            margin: 0;
+            padding: 0;
+            color: black;
+            background-color: #F7F3F0;
+        }
+
+        .header{
+            font-family: 'Noto Serif Display';
+            display: flex;
+            width: 1080px;
+            height: 86px;
+            margin: auto;
+        }
+
+        .logo{
+            margin-top: 50px;
+            width: 100px;
+            height: 63px;
+        }
+
+        .logo a img{
+            width: 100px;
+        }
+
+        .nav{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 60px;
+            width: 1080px;
+        }
+
+        .nav li{
+            margin-left: 84px;
+        }
+
+        .nav li a{
+            color: #84523C;
+            font-weight: bold;
+        }
+        /*GNB*/
+
+        .middle{
+            width: 1080px;
+            margin: auto;
+        }
+
+        .middle h1{
+            font-family: 'Noto Serif Display';
+            color: #D2454B;
+            margin: 60px 0 0 10px;
+            text-align: center;
+            letter-spacing: 5px;
+        }
+
+        .album{
+            display: flex;
+            display: flex;
+            width:600px;
+            height: 300px;
+            margin: 47px auto auto 296px;
+        }
+
+        .album img{
+            border: 2px solid #D2454B;
+            padding: 10px;
+        }
+
+        .button_1{
+            margin: 115px 50px 0 0px;
+            font-size: 32pt;
+            font-weight: bold;
+        }
+
+        .button_2{
+            margin: 115px 0 0 50px;
+            font-size: 32pt;
+            font-weight: bold;
+        }
+
+        .button_1 a{
+            color: #D2454B;
+        }
+
+        .button_2 a{
+            color: #D2454B;
+        }
+
+        .text{
+            font-family: 'NanumSquare';
+            width: 100%;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .p1{
+            margin-top: 7px;
+            color: #D2454B;
+        }
+
+        .p2{
+            padding: 15px 0 23px 0;
+            
+        }
+
+        .p3{
+            display: inline-block;
+            width: 280px;
+            padding-top: 30px;
+            font-size: 15px;
+            line-height: 30px;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            padding: 20px 0 20px 0;
+        }
+
+        .p4{
+            font-size: 14px;
+            padding: 20px 0 20px 0;
+            line-height: 30px;
+        }
+        
+        span{
+            color:#D2454B;
+            font-size: 14px;
+        }
+        footer{
+            font-family: 'NanumSquare';
+            display: flex;
+            width: 1080px;
+            height: 80px;
+            margin: 50px auto 50px auto;
+            border-top: 2px solid #D2454B;
+            padding-top: 60px;
+        }
+
+        footer div{
+            margin-left: 30px;
+            font-size: 14px;
+        }
+
+
+        @media only screen and (max-width:1080px){
+        /*For mobile phones:*/
+        .intro_bg, .header{
+            width: 100%;
+            }
+        }
+    </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src='image/logo.png'></a>
+            </div>
+            <ul class="nav">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="year.html">BY YEAR</a></li>
+                <li><a href="like.html">LIKE</a></li>
+            </ul>
+        </div>
+
+    <div class="middle">
+        <h1>2020</h1>
+        <div class="album">
+            <div class="button_1">
+                <a href="year.html"> ◀ </a>
+            </div>
+            <img src="image/fall.jpg">
+            <div class="button_2">
+                <a href="year3.html"> ▶ </a>
+            </div>
+        </div>
+        <div class="text">
+            <audio src='music/fall.mp3' controls></audio>
+            <h2>작전명 청-춘!</h2>
+            <p class="p1">잔나비 - 잔나비 소곡집 I</p>
+            <p class="p2"> 2020.11.06</p>
+            <p class="p3">
+                불어오는 바람 앞에 불꽃들이여<br>
+                우린 모두 타오르는 젊음이기에<br>
+                흔들릴 수 있어<br>
+                그래 무너질 수 있어<br>
+                일어나라 작전명 청춘<br>
+                <span>- 작전명 청-춘! 가사 중</span></p>
+            <p class="p4">입시를 하던 당시 나의 자신감 충전기였다.<br>
+                꾸밈없는 우격다짐식 노랫말과 멜로디가 나를 크게 감동시켰다.<br>
+                살면서 얼마나 많은 장애물이 놓여 있겠는가.<br>
+                아슬아슬 서 있었는 것만으로도 다행이지만, 나는 결코 무너지지 않는다.<br>
+                나는 청춘이니까!<br>
+                흔들릴 수도 무너질 수도 있지만 불타는 젊음이 있는 청춘!
+
+
+            </p>
+        </div>
+
+        <footer>
+            <img src="image/logo.png">
+            <div>
+                MADE BY . 정 하 빈 <br>
+                Addr. 경기도 의왕시 계원대학로 66 <br>
+                Fax/Tel. 02 - 2216 - 1047 <br>
+                ⓒ copyright 2021. HBCHUNG. ALL RIGHT RESERVED
+            </div>
+        </footer>
+    </body>
+</html>
