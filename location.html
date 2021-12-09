@@ -1,0 +1,293 @@
+<!DOCTYPE html><!--22161047 정하빈-->
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face{
+            font-family: 'Jalnan';
+            src:url("fonts/Jalnan.ttf");
+            unicode-range: U+AC00-D7A3, U+0041-005A, U+0061-007A, U+0030-0039;
+        }
+
+        @font-face{
+            font-family: 'NanumSquare';
+            src:url("fonts/NanumSquare.ttf");
+            unicode-range: U+0041-005A, U+AC00-D7A3, U+0041-005A, U+0061-007A, U+0030-0039;
+        }
+
+        *{
+            list-style: none;
+            text-decoration: none;
+            border-collapse: collapse;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+        
+        .clear{
+            clear:both;
+        }
+
+        .header{
+            width: 1080px;
+            height: 200px;
+            margin: 0 auto;
+        }
+
+        .logo{
+            width: 500px;
+            height: 130px;
+            margin: auto;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .logo a img{
+            width: 150px;
+            text-align: center;
+        }
+
+        .nav{
+            width: 1080px;
+            height: 40px;
+            text-align: center;
+            background-color:#3399FF;
+            border: 2px solid #3399FF;
+        }
+
+        .nav li{
+            display: inline-block;
+            margin-top: 9px;
+        }
+
+        .nav li a{
+            font-family: 'Jalnan';
+            font-weight: bold;
+            font-size: 16px;
+            color: white;
+        }
+
+        .nav li a:hover{
+            color: #F8A314;
+        }
+
+        #left{
+            padding-right: 50px;
+        }
+        #middle{
+            padding: 0 50px 0 50px;
+            border-right: 2px solid white;
+            border-left: 2px solid white;
+        }
+        #right{
+            margin-left: 50px;
+        }
+
+        .sub_nav{
+            margin: auto;
+            text-align: center;
+            margin-top: 20px;
+            padding-bottom: 13px;
+            width: 1080px;
+            border-bottom: 2px solid black;
+        }
+
+        .sub_nav li{
+            display: inline;
+            padding: 0 5px 9px 5px;
+            margin: 0 20px 0 20px;
+        }
+
+        .sub_nav li a{
+            font-family: 'Jalnan';
+            font-size: 13px;
+        }
+
+        .sub_nav li a:hover{
+            color: #F8A314;
+        }
+
+        #day1{
+            border-bottom: 4px solid #F8A314;
+        }
+
+        .content{
+            font-family: 'NanumSquare';
+            width: 880px;
+            margin: auto;
+        }
+
+        .title{
+            text-align: center;
+            margin-top: 70px;
+        }
+
+        .number{
+            color:#3399FF;
+            font-size: 17px;
+        }
+
+        .title h1{
+            margin: 5px 0 10px 0;
+        }
+        
+        /*콘텐츠 시작*/
+        .one{
+            margin-top: 50px;
+            line-height: 30px;
+        }
+
+        #img1{
+            float: left;
+            margin-right: 30px;
+        }
+
+        .text1 h3{
+            color: #3399FF;
+            margin-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        #img2{
+            margin-top: 34px;
+        }
+
+        .two{
+            margin-top: 50px;
+            line-height: 30px;
+        }
+
+        .text2{
+            float: left;
+            margin-right: 30px;
+        }
+
+        .text2 h3{
+            color: #3399FF;
+            margin-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        #img3{
+            margin-top: 19px;
+        }
+
+        footer{
+            font-family: 'NanumSquare';
+            height: 120px;
+            margin: 50px auto 0 auto;
+            padding-top: 30px;
+            background-color: #3399FF;
+        }
+
+        .info{
+            float: left;
+            margin-left: 330px;
+            font-size: 13px;
+            color: white;
+        }
+
+        .icon{
+            float: right;
+            margin-right: 330px;
+        }
+        
+    </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src='img/logo.png'></a>
+            </div>
+            <ul class="nav">
+                <li id="left"><a href="schedule.html">일정</a></li>
+                <li id="middle"><a href="location.html">여행지</a></li>
+                <li id="right"><a href="gallery.html">갤러리</a></li>
+            </ul>
+        </div>
+        <div class="sub_nav">
+            <ul>
+                <li id="day1"><a href="location.html" style="color:#F8A314;">Day1</a></li>
+                <li><a href="location2.html">Day2</a></li>
+                <li><a href="location3.html">Day3</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="title">
+                <p class="number">하나</p>
+                <h1>용두암</h1>
+                <p>제주 제주시 용담이동</p>
+            </div>
+            <section class="one">
+                <img src="img/lo1_1.jfif" id="img1">
+                <div class="text1">
+                <h3>제주도의 자연을 품은 곳</h3>
+                <p>제주 공항에서 차로 10분 거리에 있는 첫 여행지 용두암.<br>
+                    바위 모양이 용의 머리 모양을 하고 있다고 해서 용두암이란<br> 이름이 붙여졌다. 
+                    제주도에 도착하자마자 본 용두암의 푸른 바다<br>초록 자연은"이게 바로 힐링이지!!"
+                    소리가 절로 나왔다.<br>그야말로 숨통이 탁 트인 느낌!
+                </p>
+                </div>
+                <img src="img/lo1_2.jpg" id="img2">
+            </section>
+
+            <div class='clear'></div>
+
+            <div class="title">
+                <p class="number">둘</p>
+                <h1>함덕해수욕장</h1>
+                <p>제주 제주시 조천읍 조함해안로 525</p>
+            </div>
+            <section class="two">
+                <div class="text2">
+                <h3>햇살에 반짝이는 에메랄드빛 해변</h3>
+                <p>용두암이 푸른빛이라면, 함덕해수욕장은 에메랄드빛!<br>
+                    언제나 사람들로 북적거리는 곳이지만 제주에 왔다면 <br>꼭 와 봐야 하는 곳이다.
+                    해변가에 가면 밀려오는 물살에<br> 발을 꼭 담가보고 싶었는데 결과물은 처참했다.
+                    <br>샌들 신고 갔는데 사이사이에 낀 모래를 털어내느라 <br> 줄서서 발만 10분 씻었다는 슬픈 이야기.
+                </p>
+                <img src="img/lo1_3.jpg" id="img3">
+                </div>
+                <img src="img/lo1_4.jpg">
+            </section>
+
+            <div class='clear'></div>
+
+            <div class="title">
+                <p class="number">셋</p>
+                <h1>서우봉</h1>
+                <p>제주특별자치도 제주시 조천읍 함덕리 1</p>
+            </div>
+            <section class="one">
+                <img src="img/lo1_5.jpg" id="img1">
+                <div class="text1">
+                <h3>높은 곳에서 바라본 제주</h3>
+                <p>저녁을 먹고 산책할 겸 숙소 근방의 서우봉에 다녀왔다.<br>
+                    경사진 길을 따라 올라가는 동안은 매우 힘들지만,<br>
+                    어느정도 높이에 다다랐을 때 그 전경은 이루 말할 수 없다.<br>
+                    노을 지는 하늘과 소박한 제주의 삶을 볼 수 있어 정말 낭만적인 곳.
+                    <br>그리고 높은 곳에서는 사진도 정말 잘 나온다.
+                </p>
+                <img src="img/lo1_6.jpg" id="img2">
+                </div>
+            </section>
+        </div>
+
+        <div class='clear'></div>
+        <footer>
+            <div class="info">
+                MADE BY . 정 하 빈 <br>
+                Addr. 경기도 의왕시 계원대학로 66 <br>
+                Fax/Tel. 02 - 2216 - 1047 <br><br>
+                ⓒ copyright 2021. HBCHUNG. ALL RIGHTS RESERVED
+            </div>
+            <div class='icon'>
+                <a href="https://www.instagram.com/visitjeju.kr/" target="_blank"><img src="img/sns_01.png"></a>
+                <a href="https://www.youtube.com/c/VISITJEJU" target="_blank"><img src="img/sns_02.png"></a>
+                <a href="https://www.facebook.com/visitjeju.kr" target="_blank"><img src="img/sns_03.png"></a>
+                <a href="https://blog.naver.com/jtowelcome" target="_blank"><img src="img/sns_04.png"></a>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,295 @@
+<!DOCTYPE html><!--22161047 정하빈-->
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face{
+            font-family: 'Jalnan';
+            src:url("fonts/Jalnan.ttf");
+            unicode-range: U+AC00-D7A3, U+0041-005A, U+0061-007A, U+0030-0039;
+        }
+
+        @font-face{
+            font-family: 'NanumSquare';
+            src:url("fonts/NanumSquare.ttf");
+            unicode-range: U+0041-005A, U+AC00-D7A3, U+0041-005A, U+0061-007A, U+0030-0039;
+        }
+
+        *{
+            list-style: none;
+            text-decoration: none;
+            border-collapse: collapse;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+        
+        .clear{
+            clear:both;
+        }
+
+        .header{
+            width: 1080px;
+            height: 200px;
+            margin: 0 auto;
+        }
+
+        .logo{
+            width: 500px;
+            height: 130px;
+            margin: auto;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .logo a img{
+            width: 150px;
+            text-align: center;
+        }
+
+        .nav{
+            width: 1080px;
+            height: 40px;
+            text-align: center;
+            background-color:#3399FF;
+            border: 2px solid #3399FF;
+        }
+
+        .nav li{
+            display: inline-block;
+            margin-top: 9px;
+        }
+
+        .nav li a{
+            font-family: 'Jalnan';
+            font-weight: bold;
+            font-size: 16px;
+            color: white;
+        }
+
+        .nav li a:hover{
+            color: #F8A314;
+        }
+
+        #left{
+            padding-right: 50px;
+        }
+        #middle{
+            padding: 0 50px 0 50px;
+            border-right: 2px solid white;
+            border-left: 2px solid white;
+        }
+        #right{
+            margin-left: 50px;
+        }
+
+        .sub_nav{
+            margin: auto;
+            text-align: center;
+            margin-top: 20px;
+            padding-bottom: 13px;
+            width: 1080px;
+            border-bottom: 2px solid black;
+        }
+
+        .sub_nav li{
+            display: inline;
+            padding: 0 5px 9px 5px;
+            margin: 0 20px 0 20px;
+        }
+
+        .sub_nav li a{
+            font-family: 'Jalnan';
+            font-size: 13px;
+        }
+
+        .sub_nav li a:hover{
+            color: #F8A314;
+        }
+
+        #day2{
+            border-bottom: 4px solid #F8A314;
+        }
+
+        .content{
+            font-family: 'NanumSquare';
+            width: 880px;
+            margin: auto;
+        }
+
+        .title{
+            text-align: center;
+            margin-top: 70px;
+        }
+
+        .number{
+            color:#3399FF;
+            font-size: 17px;
+        }
+
+        .title h1{
+            margin: 5px 0 10px 0;
+        }
+        
+        /*콘텐츠 시작*/
+        .one{
+            margin-top: 50px;
+            line-height: 30px;
+        }
+
+        .img1{
+            float: left;
+            margin-right: 30px;
+        }
+
+        .text1 h3{
+            color: #3399FF;
+            margin-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .img2{
+            margin-top: 34px;
+        }
+
+        .two{
+            margin-top: 50px;
+            line-height: 30px;
+        }
+
+        .text2{
+            float: left;
+            margin-right: 30px;
+        }
+
+        .text2 h3{
+            color: #3399FF;
+            margin-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .img3{
+            margin-top: 33px;
+        }
+
+        footer{
+            font-family: 'NanumSquare';
+            height: 120px;
+            margin: 50px auto 0 auto;
+            padding-top: 30px;
+            background-color: #3399FF;
+        }
+
+        .info{
+            float: left;
+            margin-left: 330px;
+            font-size: 13px;
+            color: white;
+        }
+
+        .icon{
+            float: right;
+            margin-right: 330px;
+        }
+        
+    </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src='img/logo.png'></a>
+            </div>
+            <ul class="nav">
+                <li id="left"><a href="schedule.html">일정</a></li>
+                <li id="middle"><a href="location.html">여행지</a></li>
+                <li id="right"><a href="gallery.html">갤러리</a></li>
+            </ul>
+        </div>
+        <div class="sub_nav">
+            <ul>
+                <li><a href="location.html">Day1</a></li>
+                <li id="day2"><a href="location2.html" style="color:#F8A314;">Day2</a></li>
+                <li><a href="location3.html">Day3</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="title">
+                <p class="number">하나</p>
+                <h1>휴애리 자연생활공원</h1>
+                <p>제주 서귀포시 남원읍 신례동로 256</p>
+            </div>
+            <section class="one">
+                <img src="img/lo2_2.jpg" class="img1">
+                <div class="text1">
+                <h3>꽃들의 향연!</h3>
+                <p>5월 말에서 6월 초에 가면 활짝 만개한 수국 꽃밭을 볼 수 있다.<br>
+                    평소에 서울에서는 보기 힘든 한색 계열의 꽃이 정말 아름다웠다.
+                    <br>마침 이 날 옷도 수국이랑 맞춘듯 파란 계열을 입고 갔더니<br>
+                    여기서 수국과 함께 찍은 사진은 조합이 완전 예뻤다!!
+                    <br>수국철엔 연한 하늘-보라색 입고 가시길!
+                </p>
+                </div>
+                <img src="img/lo2_1.jpg" class="img2">
+            </section>
+
+            <div class='clear'></div>
+
+            <div class="title">
+                <p class="number">둘</p>
+                <h1>황우지해안</h1>
+                <p>제주 서귀포시 서홍동 766-1</p>
+            </div>
+            <section class="two">
+                <div class="text2">
+                <h3>방문은 생애 한 번이면 족합니다</h3>
+                <p>여름 오후 2시 땡볕 아래, 경사지고 셀 수 없이 많은 계단을<br>
+                    타고 내려가면 탁 트인 바다와 시원한 공기를 느낄 수 있다.<br>
+                    많은 사람들이  이 곳에서 물놀이를 즐기는데, 물놀이 목적이<br> 
+                    아니라면 여행지로 추천하지 않는다. 관광이 끝난 후 내려왔던<br>
+                    계단을 다시 올라간 일은 너무 덥고 힘들었기 때문에.
+                </p>
+                <img src="img/lo2_4.jpg" class="img3">
+                </div>
+                <img src="img/lo2_3.jpg">
+            </section>
+
+            <div class='clear'></div>
+
+            <div class="title">
+                <p class="number">셋</p>
+                <h1>도두동 무지개해안도로</h1>
+                <p>제주특별자치도 제주시 도두일동 1734</p>
+            </div>
+            <section class="one">
+                <img src="img/lo2_6.jpg" class="img1">
+                <div class="text1">
+                <h3>다시 가고 싶은 여행지 1번</h3>
+                <p>사실 해안도로 자체에는 별 게 없다.<br>
+                    똑같이 차가 달리고 인도가 나있고 건너편엔 상가가 들어선.<br>
+                    그러나 내 기준 제주에 도착하고 난 후로 용두암과 함께<br>
+                    가장 힐링했던 곳이다. 무지개다리와 자연의 조화가<br>
+                    나에게 그 순간 가장 아름다운 이미지로 남아있다.
+                </p>
+                <img src="img/lo2_5.jpg" class="img2">
+                </div>
+            </section>
+        </div>
+
+        <div class='clear'></div>
+        <footer>
+            <div class="info">
+                MADE BY . 정 하 빈 <br>
+                Addr. 경기도 의왕시 계원대학로 66 <br>
+                Fax/Tel. 02 - 2216 - 1047 <br><br>
+                ⓒ copyright 2021. HBCHUNG. ALL RIGHTS RESERVED
+            </div>
+            <div class='icon'>
+                <a href="https://www.instagram.com/visitjeju.kr/" target="_blank"><img src="img/sns_01.png"></a>
+                <a href="https://www.youtube.com/c/VISITJEJU" target="_blank"><img src="img/sns_02.png"></a>
+                <a href="https://www.facebook.com/visitjeju.kr" target="_blank"><img src="img/sns_03.png"></a>
+                <a href="https://blog.naver.com/jtowelcome" target="_blank"><img src="img/sns_04.png"></a>
+            </div>
+        </footer>
+    </body>
+</html>

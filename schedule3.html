@@ -1,0 +1,267 @@
+<!DOCTYPE html><!--22161047 정하빈-->
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face{
+            font-family: 'Jalnan';
+            src:url("fonts/Jalnan.ttf");
+            unicode-range: U+AC00-D7A3, U+0041-005A, U+0061-007A, U+0030-0039;
+        }
+
+        @font-face{
+            font-family: 'NanumSquare';
+            src:url("fonts/NanumSquare.ttf");
+            unicode-range: U+0041-005A, U+AC00-D7A3, U+0041-005A, U+0061-007A, U+0030-0039;
+        }
+
+        *{
+            list-style: none;
+            text-decoration: none;
+            border-collapse: collapse;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+        
+        .clear{
+            clear:both;
+        }
+
+        .header{
+            width: 1080px;
+            height: 200px;
+            margin: 0 auto;
+        }
+
+        .logo{
+            width: 500px;
+            height: 130px;
+            margin: auto;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .logo a img{
+            width: 150px;
+            text-align: center;
+        }
+
+        .nav{
+            width: 1080px;
+            height: 40px;
+            text-align: center;
+            background-color:#3399FF;
+            border: 2px solid #3399FF;
+        }
+
+        .nav li{
+            display: inline-block;
+            margin-top: 9px;
+        }
+
+        .nav li a{
+            font-family: 'Jalnan';
+            font-weight: bold;
+            font-size: 16px;
+            color: white;
+        }
+
+        .nav li a:hover{
+            color: #F8A314;
+        }
+
+        #left{
+            padding-right: 50px;
+        }
+        #middle{
+            padding: 0 50px 0 50px;
+            border-right: 2px solid white;
+            border-left: 2px solid white;
+        }
+        #right{
+            margin-left: 50px;
+        }
+
+        .sub_nav{
+            margin: auto;
+            text-align: center;
+            margin-top: 20px;
+            padding-bottom: 13px;
+            width: 1080px;
+            border-bottom: 2px solid black;
+        }
+
+        .sub_nav li{
+            display: inline;
+            padding: 0 5px 9px 5px;
+            margin: 0 20px 0 20px;
+        }
+
+        .sub_nav li a{
+            font-family: 'Jalnan';
+            font-size: 13px;
+        }
+
+        .sub_nav li a:hover{
+            color: #F8A314;
+        }
+
+        #day3{
+            border-bottom: 4px solid #F8A314;
+        }
+
+        .content{
+            width: 1080px;
+            margin: auto;
+        }
+
+        .time{
+            float: left;
+            width: 200px;
+            height: 2480px;
+            border-right: 2px solid black;
+            text-align: right;
+            padding-right: 40px;
+        }
+        
+        .time h1{
+        font-family: 'Jalnan';
+        font-size: 40px;
+        color: #3399FF;
+        margin-top: 30px;
+        }
+
+        .time p{
+            font-family: 'NanumSquare';
+            font-size: 20px;
+        }
+
+        .main_text{
+            font-family: 'NanumSquare';
+            font-size: 20px;
+            float: left;
+            width: 820px;
+            padding-top: 40px;
+        }
+
+        .main_text h1{
+            font-family: 'Jalnan';
+            font-size: 30px;
+            color: #3399FF;
+            margin: 0 0 40px 40px;
+        }
+
+        .main_text p{
+            padding-left: 40px;
+        }
+
+        .main_text img{
+            padding: 12px 0 30px 0;
+        }
+
+        footer{
+            font-family: 'NanumSquare';
+            height: 120px;
+            margin: 50px auto 0 auto;
+            padding-top: 30px;
+            background-color: #3399FF;
+        }
+
+        .info{
+            float: left;
+            margin-left: 330px;
+            font-size: 13px;
+            color: white;
+        }
+
+        .icon{
+            float: right;
+            margin-right: 330px;
+        }
+        
+    </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src='img/logo.png'></a>
+            </div>
+            <ul class="nav">
+                <li id="left"><a href="schedule.html">일정</a></li>
+                <li id="middle"><a href="location.html">여행지</a></li>
+                <li id="right"><a href="gallery.html">갤러리</a></li>
+            </ul>
+        </div>
+        <div class="sub_nav">
+            <ul>
+                <li><a href="schedule.html">Day1</a></li>
+                <li><a href="schedule2.html">Day2</a></li>
+                <li id="day3"><a href="schedule3.html" style="color:#F8A314;">Day3</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <section class="time">
+                <h1>Day 3</h1>
+                <p style="margin-top: 35px;">09:30 am</p>
+                <p style="margin-top: 35px;">10:30 am</p>
+                <p style="margin-top: 292px;">11:40 am</p>
+                <p style="margin-top: 292px;">01:00 pm</p>
+                <p style="margin-top: 35px;">02:30 pm</p>
+                <p style="margin-top: 35px;">02:45 pm</p>
+                <p style="margin-top: 292px;">03:40 pm</p>
+                <p style="margin-top: 292px;">05:00 pm</p>
+                <p style="margin-top: 35px;">06:30 pm</p>
+                <p style="margin-top: 35px;">07:10 pm</p>
+                <p style="margin-top: 292px;">08:00 pm</p>
+                <p style="margin-top: 35px;">09:00 pm</p>
+                <p style="margin-top: 292px;">09:50 pm</p>
+            </section>
+            <section class="main_text">
+                <h1>제주 성산</h1>
+                <p>기상</p>
+                <p style="margin-top: 35px;">아침식사 : 이모님표 샌드위치</p>
+                <img src="img/day3_1.jpg" style="padding-left: 40px;">
+                <p>만장굴 도착</p>
+                <img src="img/day3_2.jpg" style="padding-left: 40px;">
+                <img src="img/day3_2_2.jfif">
+                <p>버스 탑승 ---&gt; 성산으로 이동</p>
+                <p style="margin-top: 35px;">성산 도착</p>
+                <p style="margin-top: 35px;">점심식사 : 흑돼지 주물럭 </p>
+                <img src="img/day3_3.jpg" style="padding-left: 40px;">
+                <p>드르쿰다 in 성산 도착</p>
+                <img src="img/day3_4.jpg" style="padding-left: 40px;">
+                <img src="img/day3_4_2.jpg">
+                <img src="img/day3_4_3.jpg">
+                <p>드르쿰다 in 성산 퇴장 및 함덕으로 이동 ...했어야 했으나</p>
+                <p style="margin-top: 35px;">버스를 서귀포 방면으로 잘못 탄 것을 자다가 깨달음</p>
+                <p style="margin-top: 35px;">급하게 택시 탑승, 제주공항으로 직행. 택시에서 본 노을</p>
+                <img src="img/day3_5.jpg" style="padding-left: 40px;">
+                <img src="img/day3_5_2.jpg">
+                <img src="img/day3_5_3.jpg">
+                <p>제주공항 도착</p>
+                <p style="margin-top: 35px;">제주공항 --&gt; 김포공항 비행기 탑승</p>
+                <img src="img/day3_6.jpg" style="padding-left: 40px;">
+                <img src="img/day3_6_2.jpg">
+                <p>김포공항 도착 후 귀가</p>
+            </section>
+        </div>
+
+        <div class='clear'></div>
+        <footer>
+            <div class="info">
+                MADE BY . 정 하 빈 <br>
+                Addr. 경기도 의왕시 계원대학로 66 <br>
+                Fax/Tel. 02 - 2216 - 1047 <br><br>
+                ⓒ copyright 2021. HBCHUNG. ALL RIGHTS RESERVED
+            </div>
+            <div class='icon'>
+                <a href="https://www.instagram.com/visitjeju.kr/" target="_blank"><img src="img/sns_01.png"></a>
+                <a href="https://www.youtube.com/c/VISITJEJU" target="_blank"><img src="img/sns_02.png"></a>
+                <a href="https://www.facebook.com/visitjeju.kr" target="_blank"><img src="img/sns_03.png"></a>
+                <a href="https://blog.naver.com/jtowelcome" target="_blank"><img src="img/sns_04.png"></a>
+            </div>
+        </footer>
+    </body>
+</html>

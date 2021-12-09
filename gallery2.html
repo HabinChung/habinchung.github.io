@@ -1,0 +1,232 @@
+<!DOCTYPE html><!--22161047 정하빈-->
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face{
+            font-family: 'Jalnan';
+            src:url("fonts/Jalnan.ttf");
+            unicode-range: U+AC00-D7A3, U+0041-005A, U+0061-007A, U+0030-0039;
+        }
+
+        @font-face{
+            font-family: 'NanumSquare';
+            src:url("fonts/NanumSquare.ttf");
+            unicode-range: U+0041-005A, U+AC00-D7A3, U+0041-005A, U+0061-007A, U+0030-0039;
+        }
+
+        *{
+            list-style: none;
+            text-decoration: none;
+            border-collapse: collapse;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+        
+        .clear{
+            clear:both;
+        }
+
+        .header{
+            width: 1080px;
+            height: 200px;
+            margin: 0 auto;
+        }
+
+        .logo{
+            width: 500px;
+            height: 130px;
+            margin: auto;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .logo a img{
+            width: 150px;
+            text-align: center;
+        }
+
+        .nav{
+            width: 1080px;
+            height: 40px;
+            text-align: center;
+            background-color:#3399FF;
+            border: 2px solid #3399FF;
+        }
+
+        .nav li{
+            display: inline-block;
+            margin-top: 9px;
+        }
+
+        .nav li a{
+            font-family: 'Jalnan';
+            font-weight: bold;
+            font-size: 16px;
+            color: white;
+        }
+
+        .nav li a:hover{
+            color: #F8A314;
+        }
+
+        #left{
+            padding-right: 50px;
+        }
+        #middle{
+            padding: 0 50px 0 50px;
+            border-right: 2px solid white;
+            border-left: 2px solid white;
+        }
+        #right{
+            margin-left: 50px;
+        }
+
+        .content{
+            width: 1080px;
+            margin: auto;
+        }
+        .intro_text{
+            font-family: 'NanumSquare';
+            text-align: center;
+            margin: 50px 0 20px 0;
+        }
+
+        .intro_text p{
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+
+        .intro_text h4{
+            padding-top: 30px;
+            color: #3399FF;
+        }
+
+        .sub_nav{
+            margin: auto;
+            text-align: center;
+            margin-top: 50px;
+            padding-bottom: 12px;
+            width: 1080px;
+            border-bottom: 2px solid black;
+        }
+
+        .sub_nav li{
+            display: inline;
+            padding: 0 5px 9px 5px;
+            margin: 0 20px 0 20px;
+        }
+
+        .sub_nav li a{
+            font-family: 'Jalnan';
+            font-size: 13px;
+        }
+
+        .sub_nav li a:hover{
+            color: #F8A314;
+        }
+
+        #day2{
+            border-bottom: 4px solid #F8A314;
+        }
+
+        .images div{
+            width: 25%;
+            float: left;
+            margin-top: 20px;;
+        }
+
+        .images img{
+            padding: 10px;
+        }
+
+
+        
+        footer{
+            font-family: 'NanumSquare';
+            height: 120px;
+            margin: 50px auto 0 auto;
+            padding-top: 30px;
+            background-color: #3399FF;
+        }
+
+        .info{
+            float: left;
+            margin-left: 330px;
+            font-size: 13px;
+            color: white;
+        }
+
+        .icon{
+            float: right;
+            margin-right: 330px;
+        }
+        
+    </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src='img/logo.png'></a>
+            </div>
+            <ul class="nav">
+                <li id="left"><a href="schedule.html">일정</a></li>
+                <li id="middle"><a href="location.html">여행지</a></li>
+                <li id="right"><a href="gallery.html">갤러리</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="intro_text">
+                <p>J E J U &nbsp;&nbsp;G A L L E R Y</p>
+                <h3>사진으로 보는 제주 여정</h3>
+                <h4>in 서귀포</h4>
+            </div>
+
+            <div class="sub_nav">
+                <ul>
+                    <li><a href="gallery.html">Day1</a></li>
+                    <li id="day2"><a href="gallery2.html" style="color:#F8A314;">Day2</a></li>
+                    <li><a href="gallery3.html">Day3</a></li>
+                </ul>
+            </div>
+
+            <section class="images">
+                <div>
+                    <img src="img/ga2_1.jfif">
+                    <img src="img/ga2_3.jpg">
+                </div>
+                <div>
+                    <img src="img/ga2_5.jpg">
+                    <img src="img/ga2_7.jpg">
+                </div>
+                <div>
+                    <img src="img/ga2_2.jpg">
+                    <img src="img/ga1_8.jfif">
+                </div>
+                <div>
+                    <img src="img/ga2_6.jpg">
+                    <img src="img/ga2_4.jpg">
+                </div>
+            </section>
+        </div>
+
+        <div class='clear'></div>
+        
+        <footer>
+            <div class="info">
+                MADE BY . 정 하 빈 <br>
+                Addr. 경기도 의왕시 계원대학로 66 <br>
+                Fax/Tel. 02 - 2216 - 1047 <br><br>
+                ⓒ copyright 2021. HBCHUNG. ALL RIGHTS RESERVED
+            </div>
+            <div class='icon'>
+                <a href="https://www.instagram.com/visitjeju.kr/" target="_blank"><img src="img/sns_01.png"></a>
+                <a href="https://www.youtube.com/c/VISITJEJU" target="_blank"><img src="img/sns_02.png"></a>
+                <a href="https://www.facebook.com/visitjeju.kr" target="_blank"><img src="img/sns_03.png"></a>
+                <a href="https://blog.naver.com/jtowelcome" target="_blank"><img src="img/sns_04.png"></a>
+            </div>
+        </footer>
+    </body>
+</html>

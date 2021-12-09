@@ -1,0 +1,274 @@
+<!DOCTYPE html><!--22161047 정하빈-->
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face{
+            font-family: 'Jalnan';
+            src:url("fonts/Jalnan.ttf");
+            unicode-range: U+AC00-D7A3, U+0041-005A, U+0061-007A, U+0030-0039;
+        }
+
+        @font-face{
+            font-family: 'NanumSquare';
+            src:url("fonts/NanumSquare.ttf");
+            unicode-range: U+0041-005A, U+AC00-D7A3, U+0041-005A, U+0061-007A, U+0030-0039;
+        }
+
+        *{
+            list-style: none;
+            text-decoration: none;
+            border-collapse: collapse;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+        
+        .clear{
+            clear:both;
+        }
+
+        .header{
+            width: 1080px;
+            height: 200px;
+            margin: 0 auto;
+        }
+
+        .logo{
+            width: 500px;
+            height: 130px;
+            margin: auto;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .logo a img{
+            width: 150px;
+            text-align: center;
+        }
+
+        .nav{
+            width: 1080px;
+            height: 40px;
+            text-align: center;
+            background-color:#3399FF;
+            border: 2px solid #3399FF;
+        }
+
+        .nav li{
+            display: inline-block;
+            margin-top: 9px;
+        }
+
+        .nav li a{
+            font-family: 'Jalnan';
+            font-weight: bold;
+            font-size: 16px;
+            color: white;
+        }
+
+        .nav li a:hover{
+            color: #F8A314;
+        }
+
+        #left{
+            padding-right: 50px;
+        }
+        #middle{
+            padding: 0 50px 0 50px;
+            border-right: 2px solid white;
+            border-left: 2px solid white;
+        }
+        #right{
+            margin-left: 50px;
+        }
+
+        .sub_nav{
+            margin: auto;
+            text-align: center;
+            margin-top: 20px;
+            padding-bottom: 13px;
+            width: 1080px;
+            border-bottom: 2px solid black;
+        }
+
+        .sub_nav li{
+            display: inline;
+            padding: 0 5px 9px 5px;
+            margin: 0 20px 0 20px;
+        }
+
+        .sub_nav li a{
+            font-family: 'Jalnan';
+            font-size: 13px;
+        }
+
+        .sub_nav li a:hover{
+            color: #F8A314;
+        }
+
+        #day3{
+            border-bottom: 4px solid #F8A314;
+        }
+
+        .content{
+            font-family: 'NanumSquare';
+            width: 880px;
+            margin: auto;
+        }
+
+        .title{
+            text-align: center;
+            margin-top: 70px;
+        }
+
+        .number{
+            color:#3399FF;
+            font-size: 17px;
+        }
+
+        .title h1{
+            margin: 5px 0 10px 0;
+        }
+        
+        /*콘텐츠 시작*/
+        .one{
+            margin-top: 50px;
+            line-height: 30px;
+        }
+
+        .img1{
+            float: left;
+            margin-right: 30px;
+        }
+
+        .text1 h3{
+            color: #3399FF;
+            margin-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .img2{
+            margin-top: 40px;
+        }
+
+        .two{
+            margin-top: 50px;
+            line-height: 30px;
+        }
+
+        .text2{
+            float: left;
+            margin-right: 30px;
+        }
+
+        .text2 h3{
+            color: #3399FF;
+            margin-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .img3{
+            margin-top: 52px;
+        }
+
+        footer{
+            font-family: 'NanumSquare';
+            height: 120px;
+            margin: 50px auto 0 auto;
+            padding-top: 30px;
+            background-color: #3399FF;
+        }
+
+        .info{
+            float: left;
+            margin-left: 330px;
+            font-size: 13px;
+            color: white;
+        }
+
+        .icon{
+            float: right;
+            margin-right: 330px;
+        }
+        
+    </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src='img/logo.png'></a>
+            </div>
+            <ul class="nav">
+                <li id="left"><a href="schedule.html">일정</a></li>
+                <li id="middle"><a href="location.html">여행지</a></li>
+                <li id="right"><a href="gallery.html">갤러리</a></li>
+            </ul>
+        </div>
+        <div class="sub_nav">
+            <ul>
+                <li><a href="location.html">Day1</a></li>
+                <li><a href="location2.html">Day2</a></li>
+                <li id="day3"><a href="location3.html" style="color:#F8A314;">Day3</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="title">
+                <p class="number">하나</p>
+                <h1>만장굴</h1>
+                <p>제주 제주시 구좌읍 만장굴길 182</p>
+            </div>
+            <section class="one">
+                <img src="img/lo3_1.jpg" class="img1">
+                <div class="text1">
+                <h3>겨울에 연인과 함께 오세요</h3>
+                <p> 왕복 1시간 길이로, 왼쪽 사진은 만장굴의 끝에서 볼 수 있는
+                    <br>대왕 용암석주다! 무더운 여름에 갔음에도 불구하고 굴 안이<br>너무 추워서
+                    친구와 거의 안으면서 걸어다녔다. 만장굴에 있는 동안<br> 
+                    "여길 네가 아니라 애인이랑 왔어야 했는데"만 10번 외친듯.<br>
+                    그리고 역시 고양이 마을 제주답게, 이 고양이는 만장굴 마스코트다.
+                </p>
+                </div>
+                <img src="img/lo3_2.jpg" class="img2">
+            </section>
+
+            <div class='clear'></div>
+
+            <div class="title">
+                <p class="number">둘</p>
+                <h1>드르쿰다 in 성산</h1>
+                <p>제주 서귀포시 성산읍 섭지코지로25번길 64</p>
+            </div>
+            <section class="two">
+                <div class="text2">
+                <h3>제주 인생샷을 건지고 싶다면</h3>
+                <p>날 좋은 날, 자연스러운 사진을 찍기에 딱 좋은 테마파크다.<br>
+                    입장 전, 드르쿰다의 카페에서 1인 1음료를 시키면<br>
+                    드르쿰다의 입장권이 자동 발급된다. 그래서 음료가 비싸다(...)<br>
+                    예쁜 공간들이 많고, 휴식을 취하기에 너무 좋은 공원 느낌!<br>
+                    그리고 뒷편으론 드르쿰다 해변도 있다. 꼭 가보길 바란다.
+                </p>
+                <img src="img/lo3_3.jfif" class="img3">
+                </div>
+                <img src="img/lo3_4.jpg" class="img4">
+            </section>
+        </div>
+
+        <div class='clear'></div>
+        <footer>
+            <div class="info">
+                MADE BY . 정 하 빈 <br>
+                Addr. 경기도 의왕시 계원대학로 66 <br>
+                Fax/Tel. 02 - 2216 - 1047 <br><br>
+                ⓒ copyright 2021. HBCHUNG. ALL RIGHTS RESERVED
+            </div>
+            <div class='icon'>
+                <a href="https://www.instagram.com/visitjeju.kr/" target="_blank"><img src="img/sns_01.png"></a>
+                <a href="https://www.youtube.com/c/VISITJEJU" target="_blank"><img src="img/sns_02.png"></a>
+                <a href="https://www.facebook.com/visitjeju.kr" target="_blank"><img src="img/sns_03.png"></a>
+                <a href="https://blog.naver.com/jtowelcome" target="_blank"><img src="img/sns_04.png"></a>
+            </div>
+        </footer>
+    </body>
+</html>
